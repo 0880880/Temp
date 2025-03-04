@@ -1,7 +1,9 @@
 {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
     "name": "Spaghetti al Pomodoro",
     "description": "A simple, authentic Italian tomato spaghetti recipe.",
-    "ingredients": [
+    "recipeIngredient": [
         "400g spaghetti",
         "500g ripe tomatoes or canned San Marzano tomatoes",
         "3 garlic cloves, thinly sliced",
@@ -11,19 +13,49 @@
         "Freshly ground black pepper",
         "Optional: Grated Parmigiano-Reggiano"
     ],
-    "instructions": [
-        "Bring a large pot of salted water to a boil. Cook spaghetti until al dente.",
-        "Heat olive oil in a skillet over medium heat. Add garlic and sauté until golden.",
-        "Crush tomatoes and add to skillet. Season with salt and pepper. Simmer for 10–15 minutes.",
-        "Stir in torn basil leaves.",
-        "Drain spaghetti, reserving a little pasta water.",
-        "Toss spaghetti in sauce, adding pasta water if needed.",
-        "Serve with basil and Parmigiano-Reggiano if desired."
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of salted water to a boil. Cook spaghetti until al dente."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat olive oil in a skillet over medium heat. Add garlic and sauté until golden."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Crush tomatoes and add to skillet. Season with salt and pepper. Simmer for 10–15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in torn basil leaves."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain spaghetti, reserving a little pasta water."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss spaghetti in sauce, adding pasta water if needed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve with basil and Parmigiano-Reggiano if desired."
+        }
     ],
-    "servings": 4,
-    "difficulty": "easy",
-    "preptime": "5 minutes",
-    "cooktime": "20 minutes",
-    "categories": ["Italian", "Pasta", "Vegetarian"],
-    "source": "ChatGPT - Authentic Italian Recipe"
+    "recipeCategory": [
+        "Italian",
+        "Pasta",
+        "Vegetarian"
+    ],
+    "recipeCuisine": "Italian",
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "recipeYield": "4 servings",
+    "difficulty": "Easy",
+    "author": {
+        "@type": "Person",
+        "name": "ChatGPT - Authentic Italian Recipe"
+    }
 }
